@@ -1,4 +1,4 @@
-# generator-angular-require-fullstack [![Build Status](https://secure.travis-ci.org/fciancio/generator-angular-require-fullstack.png?branch=master)](https://travis-ci.org/fciancio/generator-angular-require-fullstack)
+# generator-angular-require-fullstack [![Build Status](https://secure.travis-ci.org/monits/generator-angular-require-fullstack.png?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -28,12 +28,12 @@ npm install -g generator-angular-require-fullstack
 Finally, initiate the generator:
 
 ```bash
-yo angular require fullstack
+yo angular-require-fullstack
 ```
 
 ### Generator info - Monits
 
-This generator was build by Monits. If you'd like to know more about Monits, go to [Monits](http://www.monits.com) or check out our [Blog](https://medium.com/monits-blog)
+This generator was built by Monits. If you'd like to know more about Monits, go to [Monits](http://www.monits.com) or check out our [Blog](https://medium.com/monits-blog)
 
 ![](monits_logo.png)
 
