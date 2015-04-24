@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = function (grunt) {
   'use strict';
   require('load-grunt-tasks')(grunt);
@@ -8,8 +10,6 @@ module.exports = function (grunt) {
     app: 'app',
     dist: 'dist'
   };
-
-  
 
   grunt.initConfig({
     yeoman: appConfig,
@@ -471,7 +471,7 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
 
-  grunt.registerTask('build', 'Compiles app for production or release candidate', function (target) {
+  grunt.registerTask('build', 'Compiles app for production or release candidate', function () {
     grunt.task.run([
       'clean:dist',
       // copy stylesheets, in: app/styles/ out: .tmp/styles

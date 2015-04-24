@@ -1,3 +1,4 @@
+/* global paths */
 require.config({
     baseUrl: '/scripts',
     paths: {
@@ -24,7 +25,7 @@ require.config({
         moment: '../../bower_components/moment/moment',
         requirejs: '../../bower_components/requirejs/require',
         underscore: '../../bower_components/underscore/underscore',
-        'angular-translate': '../../bower_components/angular-translate/angular-translate',
+        'angular-translate': '../../bower_components/angular-translate/angular-translate'
     },
     shim: {
         angular: {
@@ -57,7 +58,7 @@ require.config({
             deps: [
                 'angular'
             ]
-        },
+        }
     },
     packages: [
 
