@@ -1,4 +1,4 @@
-# generator-angular-require-fullstack [![Build Status](https://secure.travis-ci.org/monits/generator-angular-require-fullstack.png?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
+# generator-angular-require-fullstack [![Build Status](https://travis-ci.org/Monits/generator-angular-require-fullstack.svg?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
 
 > [Yeoman](http://yeoman.io) generator
 
