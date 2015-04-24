@@ -18,7 +18,7 @@ describe('angular require fullstack:app', function () {
       'bower.json',
       'package.json',
       '.editorconfig',
-      '.jshintrc',
+      '.eslintrc',
       'app/scripts/Test.js',
       'app/scripts/build.js',
       'app/scripts/paths.js',

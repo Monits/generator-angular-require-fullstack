@@ -9,7 +9,7 @@ define(['routes',
 		'use strict';
 		var <%= appname %> = angular.module('<%= appname %>', [
 			'ngRoute',
-			'pascalprecht.translate',
+			'pascalprecht.translate'
 		]);
 		<%= appname %>
 			.config(

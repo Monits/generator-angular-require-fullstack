@@ -15,11 +15,10 @@ define(function() {
 	}
 	return {
 		load: function (name, require, load) {
-			require(['i18n/translations.' + userLang, 'i18n/angular-locale_' + userLang], function (value) {
+			require(['i18n/translations.' + userLang], function (value) {
 				load(value);
 				return value;
 			});
 		}
 	};
 });
-

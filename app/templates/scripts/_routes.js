@@ -5,7 +5,7 @@ define([], function() {
         routes: {
             '/': {
                 templateUrl: '/views/home.html',
-                controller: 'HomeCtrl',
+                controller: 'HomeCtrl'
             }
         }
     };
