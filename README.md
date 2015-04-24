@@ -1,4 +1,4 @@
-# generator-angular-require-fullstack [![Build Status](https://secure.travis-ci.org/monits/generator-angular-require-fullstack.png?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
+# generator-angular-require-fullstack [![Build Status](https://travis-ci.org/Monits/generator-angular-require-fullstack.svg?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -24,7 +24,7 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 The Angular Require Fullstack generator comes to speed up the scaffolding of projects using both AngularJS and RequireJS alongside with some must-have tools/plugins like file revving, i18n, minification of images and files among others. 
 
 ####Why do we need a generator at all?
-Well, unless you like spending time creating the basic structure for each project you start, setting up its configuration and the tools/plugins/frameworks you're going to use, you will agree that those tasks are terrible repetitive, tough, long and on top of that, they have a ROI tending to zero. Using a generator will simplify most of these tasks in seconds.
+Well, unless you like spending time creating the basic structure for each project you start, setting up its configuration and the tools/plugins/frameworks you're going to use, you will agree that those tasks are terrible repetitive, tough, time-consuming and on top of that, they have a ROI tending to zero. Using a generator will simplify most of these tasks, and will get them done in seconds.
 
 ####Why to use this generator?
 We believe that both AngularJS and RequireJS are extremely usefull when building up web applications, and we wanted to use both of them on all of the web projects we develop, but we couldn't find a generator that did these while providing support to file revving and i18n, which we think must be present in any decent web application. If this isn't enough for you to consider this generator, you might reconsider it if we tell you that it will provide you dependency lazy loading. 
