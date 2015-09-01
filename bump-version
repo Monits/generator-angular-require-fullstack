@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  exit 0
+fi
+
+perl -0777 -pi -e "s/\"version\".*/\"version\": \"$1\",/" package.json
+
