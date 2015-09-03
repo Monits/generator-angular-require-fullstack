@@ -47,7 +47,15 @@ Finally, initiate the generator:
 ```bash
 yo angular-require-fullstack
 ```
-It will guide you from there
+It will guide you from there.
+
+Also, you can create your own services/directives/controllers using our templates by doing:
+
+```bash
+yo angular-require-fullstack:whatiwant
+```
+
+Replace `whatiwant` with the word `controller`, `service` or `directive` as you need. The rest is straightforward.
 
 ### Getting To Know Yeoman
 
