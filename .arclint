@@ -1,0 +1,30 @@
+{
+    "linters": {
+        "chmod": {
+            "type": "chmod"
+        },
+        "json": {
+            "type": "json",
+            "include": [
+                "(^\\.arcconfig$)",
+                "(^\\.arclint$)",
+                "(^\\.eslintrc$)"
+            ]
+        },
+        "merge-conflict": {
+            "type": "merge-conflict"
+        },
+        "spelling": {
+            "type": "spelling"
+        },
+        "eslint": {
+            "type": "eslint",
+            "exclude": "(^(_|.*\\/_)[^\\/]+\\.js$)",
+            "include": "(\\.js$)"
+        },
+        "sass": {
+            "type": "sass",
+            "include": "(\\.scss$)"
+        }
+    }
+}

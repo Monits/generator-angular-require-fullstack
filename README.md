@@ -27,7 +27,7 @@ The Angular Require Fullstack generator comes to speed up the scaffolding of pro
 Well, unless you like spending time creating the basic structure for each project you start, setting up its configuration and the tools/plugins/frameworks you're going to use, you will agree that those tasks are terrible repetitive, tough, time-consuming and on top of that, they have a ROI tending to zero. Using a generator will simplify most of these tasks, and will get them done in seconds.
 
 ####Why to use this generator?
-We believe that both AngularJS and RequireJS are extremely usefull when building up web applications, and we wanted to use both of them on all of the web projects we develop, but we couldn't find a generator that did these while providing support to file revving and i18n, which we think must be present in any decent web application. If this isn't enough for you to consider this generator, you might reconsider it if we tell you that it will provide you dependency lazy loading. 
+We believe that both AngularJS and RequireJS are extremely useful when building up web applications, and we wanted to use both of them on all of the web projects we develop, but we couldn't find a generator that did these while providing support to file revving and i18n, which we think must be present in any decent web application. If this isn't enough for you to consider this generator, you might reconsider it if we tell you that it will provide you dependency lazy loading. 
 
 ####Who built this generator?
 This generator was built by Monits. If you'd like to know more about Monits, go to [Monits](http://www.monits.com) or check out our [Blog](https://medium.com/monits-blog)
