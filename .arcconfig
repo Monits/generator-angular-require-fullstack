@@ -1,0 +1,7 @@
+{
+	"project_id" : "generator-angular-require-fullstack",
+	"conduit_uri" : "http://ph.monits.com/",
+	"load": [
+		"/opt/arc-lint"
+	]
+}

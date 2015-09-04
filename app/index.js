@@ -62,7 +62,7 @@ module.exports = yeoman.generators.Base.extend({
         this
       );
 
-      //Main files
+      // Main files
       this.fs.copyTpl(
         this.templatePath('/scripts/_app.js'),
         this.destinationPath('/app/scripts/' + this.appname + '.js'),
@@ -92,13 +92,13 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('/app/robots.txt')
       );
 
-      //i18n
+      // i18n
       this.fs.copy(
         this.templatePath('/scripts/i18n/*.*'),
         this.destinationPath('/app/scripts/i18n/')
       );
 
-      //Controllers
+      // Controllers
       this.fs.copyTpl(
         this.templatePath('/scripts/controllers/_IndexCtrl.js'),
         this.destinationPath('/app/scripts/controllers/IndexCtrl.js'),
@@ -110,14 +110,14 @@ module.exports = yeoman.generators.Base.extend({
         this
       );
 
-      //Directives
+      // Directives
       this.fs.copyTpl(
         this.templatePath('/scripts/directives/_sample.js'),
         this.destinationPath('/app/scripts/directives/sample.js'),
         this
       );
 
-      //Services
+      // Services
       this.fs.copyTpl(
         this.templatePath('/scripts/services/_sampleService.js'),
         this.destinationPath('/app/scripts/services/sampleService.js'),
@@ -129,19 +129,19 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('/app/scripts/services/dependencyResolverFor.js')
       );
 
-      //Images
+      // Images
       this.fs.copy(
         this.templatePath('/images/yeoman.png'),
         this.destinationPath('/app/images/yeoman.png')
       );
 
-      //Styles
+      // Styles
       this.fs.copy(
         this.templatePath('/styles/**/*'),
         this.destinationPath('/app/styles/')
       );
 
-      //Views
+      // Views
       this.fs.copyTpl(
         this.templatePath('_index.html'),
         this.destinationPath('/app/index.html'),
@@ -159,7 +159,7 @@ module.exports = yeoman.generators.Base.extend({
         this
       );
 
-      //this.gruntfile.insertConfig("compass", "{ watch: { watch: true } }");
+      // this.gruntfile.insertConfig("compass", "{ watch: { watch: true } }");
     },
 
     projectfiles: function () {
@@ -168,7 +168,7 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('.editorconfig')
       );
       this.fs.copy(
-        this.templatePath('.eslintrc'),
+        this.templatePath('_.eslintrc'),
         this.destinationPath('.eslintrc')
       );
     }
