@@ -1,5 +1,6 @@
+'use strict';
+
 define([], function() {
-	'use strict';
     return {
         defaultRoutePath: '/',
         routes: {
@@ -7,6 +8,8 @@ define([], function() {
                 templateUrl: '/views/home.html',
                 controller: 'HomeCtrl'
             }
+            /* ===== yeoman hook ===== */
+            /* Do not remove these commented lines! Needed for auto-generation */
         }
     };
 });
