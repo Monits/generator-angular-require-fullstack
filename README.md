@@ -1,4 +1,6 @@
-# generator-angular-require-fullstack [![Build Status](https://travis-ci.org/Monits/generator-angular-require-fullstack.svg?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack)
+[![Build Status](https://travis-ci.org/Monits/generator-angular-require-fullstack.svg?branch=master)](https://travis-ci.org/monits/generator-angular-require-fullstack) [![npm version](https://badge.fury.io/js/generator-angular-require-fullstack.svg)](http://badge.fury.io/js/generator-angular-require-fullstack)
+
+# generator-angular-require-fullstack
 
 > [Yeoman](http://yeoman.io) generator
 
