@@ -19,7 +19,7 @@
     "grunt-contrib-requirejs": "^0.4.4",
     "grunt-contrib-uglify": "^0.4.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-eslint": "^2.1.0",
+    "grunt-eslint": "^17.2.0",
     "grunt-filerev": "^0.2.1",
     "grunt-google-cdn": "^0.4.0",
     "grunt-newer": "^0.7.0",

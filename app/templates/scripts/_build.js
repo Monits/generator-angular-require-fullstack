@@ -1,4 +1,5 @@
 /* global paths */
+'use strict';
 require.config({
     baseUrl: '/scripts',
     paths: {
@@ -74,7 +75,6 @@ require([
         'controllers/IndexCtrl'
     ],
     function() {
-        'use strict';
         angular.bootstrap(document, ['<%= appname %>']);
     }
 );

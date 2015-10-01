@@ -1,3 +1,4 @@
+'use strict';
 define(['routes',
 	'services/dependencyResolverFor',
 	'i18n/i18nLoader!',
@@ -6,7 +7,6 @@ define(['routes',
 	'bootstrap',
 	'angular-translate'],
 	function(config, dependencyResolverFor, i18n) {
-		'use strict';
 		var <%= appname %> = angular.module('<%= appname %>', [
 			'ngRoute',
 			'pascalprecht.translate'

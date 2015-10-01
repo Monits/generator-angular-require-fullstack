@@ -1,10 +1,10 @@
+'use strict';
 /*
-With this method we enable lazy loading of AngularJS dependencies using RequireJS.
-We do it by returning a promise to the dependencies passed as parameter, to be
-used as routes in the routeProvider. They will be resolved when needed.
-*/
+ * With this method we enable lazy loading of AngularJS dependencies using RequireJS.
+ * We do it by returning a promise to the dependencies passed as parameter, to be
+ * used as routes in the routeProvider. They will be resolved when needed.
+ */
 define([], function() {
-    'use strict';
 
     return function(dependencies) {
         var definition = {
