@@ -1,6 +1,6 @@
+'use strict';
 define(function() {
-	'use strict';
-	//Add languages here
+	// Add languages here
 	var userLang, listOfSupportedLanguages = ['en'];
 
 	// to avoid being called in non browser environments
@@ -9,7 +9,7 @@ define(function() {
 		userLang = userLang.split('-')[0];
 	}
 
-	//Set English as default language
+	// Set English as default language
 	if (userLang === undefined || listOfSupportedLanguages.indexOf(userLang) < 0) {
 		userLang = 'en';
 	}

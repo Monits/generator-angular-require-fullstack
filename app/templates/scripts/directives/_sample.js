@@ -1,5 +1,5 @@
+'use strict';
 define(['<%= appname %>'], function(<%= appname %>) {
-	'use strict';
 
 	<%= appname %>.directive('sample', function() {
 		return {
