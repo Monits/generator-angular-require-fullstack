@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-require-fullstack",
-  "version": "0.3.0-dev",
+  "version": "0.4.0-dev",
   "description": "Yeoman generator for AngularJS using RequireJS, Filerev, i18n and lazy loading",
   "license": "MIT",
   "main": "app/index.js",
